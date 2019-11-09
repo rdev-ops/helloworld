@@ -1,7 +1,7 @@
 pipeline {
     agent any
 	stages {
-    stage ('Compile Stage') {Maven
+    stage ('Compile Stage') {maven
 
        steps {
          with maven(maven : 'maven') {
